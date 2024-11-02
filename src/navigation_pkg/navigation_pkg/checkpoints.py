@@ -24,6 +24,7 @@ class Checkpoints(Node):
 
             f = open(checkpoints_file)
             data = json.load(f)
+            self._logger.info(str(data))
 
             poses = []
             for i in data['poses']:
@@ -37,6 +38,8 @@ class Checkpoints(Node):
                 p.pose.orientation.z = i['orientation']['z']
                 p.pose.orientation.w = i['orientation']['w']
                 poses.append(p)
+                # self._logger.info("Poses : " + str(p.pose.position))
+            # self._logger.info("Poses : " + str(poses))
 
             goal_msg = FollowWaypoints.Goal()
             goal_msg.poses = poses
