@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000562] (navigation_pkg) JobQueued: {'identifier': 'navigation_pkg', 'dependencies': OrderedDict()}
+[0.000854] (navigation_pkg) JobStarted: {'identifier': 'navigation_pkg'}
+[0.099768] (-) TimerEvent: {}
+[0.200076] (-) TimerEvent: {}
+[0.300394] (-) TimerEvent: {}
+[0.400750] (-) TimerEvent: {}
+[0.501181] (-) TimerEvent: {}
+[0.601603] (-) TimerEvent: {}
+[0.702016] (-) TimerEvent: {}
+[0.802669] (-) TimerEvent: {}
+[0.903300] (-) TimerEvent: {}
+[1.003753] (-) TimerEvent: {}
+[1.104189] (-) TimerEvent: {}
+[1.165218] (navigation_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'llagoeiro', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/llagoeiro', 'OLDPWD': '/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '1715', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2063', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2416', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'llagoeiro', 'JOURNAL_STREAM': '8:21570', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'llagoeiro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/llagoeiro/anaconda3/bin:/opt/ros/humble/bin:/home/llagoeiro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/llagoeiro:@/tmp/.ICE-unix/1866,unix/llagoeiro:/tmp/.ICE-unix/1866', 'INVOCATION_ID': 'be2b93c62d544381bc41339c60bf4388', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T3QKW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c3b83aa2-8bee-43dc-bd4b-3830f939421c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11/', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.204499] (-) TimerEvent: {}
+[1.304991] (-) TimerEvent: {}
+[1.344720] (navigation_pkg) StderrLine: {'line': b"/home/llagoeiro/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.345044] (navigation_pkg) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.405131] (-) TimerEvent: {}
+[1.505477] (-) TimerEvent: {}
+[1.541743] (navigation_pkg) StdoutLine: {'line': b'running develop\n'}
+[1.543501] (navigation_pkg) StderrLine: {'line': b'/home/llagoeiro/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[1.543655] (navigation_pkg) StderrLine: {'line': b'!!\n'}
+[1.543755] (navigation_pkg) StderrLine: {'line': b'\n'}
+[1.543848] (navigation_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.543939] (navigation_pkg) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[1.544030] (navigation_pkg) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.544118] (navigation_pkg) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.544204] (navigation_pkg) StderrLine: {'line': b'\n'}
+[1.544290] (navigation_pkg) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[1.544394] (navigation_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.544484] (navigation_pkg) StderrLine: {'line': b'\n'}
+[1.544569] (navigation_pkg) StderrLine: {'line': b'!!\n'}
+[1.544655] (navigation_pkg) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[1.605613] (-) TimerEvent: {}
+[1.706191] (-) TimerEvent: {}
+[1.806653] (-) TimerEvent: {}
+[1.865338] (navigation_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.901411] (navigation_pkg) StdoutLine: {'line': b'writing navigation_pkg.egg-info/PKG-INFO\n'}
+[1.902238] (navigation_pkg) StdoutLine: {'line': b'writing dependency_links to navigation_pkg.egg-info/dependency_links.txt\n'}
+[1.902571] (navigation_pkg) StdoutLine: {'line': b'writing entry points to navigation_pkg.egg-info/entry_points.txt\n'}
+[1.902856] (navigation_pkg) StdoutLine: {'line': b'writing requirements to navigation_pkg.egg-info/requires.txt\n'}
+[1.903046] (navigation_pkg) StdoutLine: {'line': b'writing top-level names to navigation_pkg.egg-info/top_level.txt\n'}
+[1.906753] (-) TimerEvent: {}
+[1.970806] (navigation_pkg) StdoutLine: {'line': b"reading manifest file 'navigation_pkg.egg-info/SOURCES.txt'\n"}
+[1.973596] (navigation_pkg) StdoutLine: {'line': b"writing manifest file 'navigation_pkg.egg-info/SOURCES.txt'\n"}
+[2.006870] (-) TimerEvent: {}
+[2.010636] (navigation_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[2.010895] (navigation_pkg) StdoutLine: {'line': b'Creating /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/lib/python3.10/site-packages/navigation-pkg.egg-link (link to .)\n'}
+[2.011649] (navigation_pkg) StdoutLine: {'line': b'Installing checkpoints script to /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/lib/navigation_pkg\n'}
+[2.011968] (navigation_pkg) StdoutLine: {'line': b'\n'}
+[2.012154] (navigation_pkg) StdoutLine: {'line': b'Installed /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg\n'}
+[2.012267] (navigation_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[2.065013] (navigation_pkg) CommandEnded: {'returncode': 0}
+[2.086391] (navigation_pkg) JobEnded: {'identifier': 'navigation_pkg', 'rc': 0}
+[2.087549] (-) EventReactorShutdown: {}

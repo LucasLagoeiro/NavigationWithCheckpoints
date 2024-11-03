@@ -1,0 +1,44 @@
+[0.449s] Invoking command in '/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg': PYTHONPATH=/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/build --no-deps symlink_data
+[0.547s] /home/llagoeiro/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.547s]   warnings.warn(msg)
+[0.657s] running develop
+[0.657s] /home/llagoeiro/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.657s] !!
+[0.657s] 
+[0.657s]         ********************************************************************************
+[0.657s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.657s]         Instead, use pypa/build, pypa/installer or other
+[0.657s]         standards-based tools.
+[0.657s] 
+[0.657s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.657s]         ********************************************************************************
+[0.657s] 
+[0.657s] !!
+[0.657s]   easy_install.initialize_options(self)
+[0.797s] running egg_info
+[0.797s] creating navigation_pkg.egg-info
+[0.807s] writing navigation_pkg.egg-info/PKG-INFO
+[0.808s] writing dependency_links to navigation_pkg.egg-info/dependency_links.txt
+[0.808s] writing entry points to navigation_pkg.egg-info/entry_points.txt
+[0.808s] writing requirements to navigation_pkg.egg-info/requires.txt
+[0.808s] writing top-level names to navigation_pkg.egg-info/top_level.txt
+[0.808s] writing manifest file 'navigation_pkg.egg-info/SOURCES.txt'
+[0.830s] reading manifest file 'navigation_pkg.egg-info/SOURCES.txt'
+[0.830s] writing manifest file 'navigation_pkg.egg-info/SOURCES.txt'
+[0.848s] running build_ext
+[0.848s] Creating /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/lib/python3.10/site-packages/navigation-pkg.egg-link (link to .)
+[0.848s] Installing checkpoints script to /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/lib/navigation_pkg
+[0.848s] 
+[0.849s] Installed /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg
+[0.849s] running symlink_data
+[0.849s] creating /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/ament_index/resource_index/packages
+[0.849s] symbolically linking /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/resource/navigation_pkg -> /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/ament_index/resource_index/packages
+[0.849s] symbolically linking /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/package.xml -> /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/navigation_pkg
+[0.849s] creating /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/navigation_pkg/launch
+[0.849s] symbolically linking /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/launch/checkpoints.launch.py -> /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/navigation_pkg/launch
+[0.849s] creating /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/navigation_pkg/map
+[0.849s] symbolically linking /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/map/checkpoints.json -> /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/navigation_pkg/map
+[0.849s] symbolically linking /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/map/map.pgm -> /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/navigation_pkg/map
+[0.850s] symbolically linking /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/map/map.yaml -> /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/navigation_pkg/map
+[0.850s] symbolically linking /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/map/checkpoints copy.json -> /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/share/navigation_pkg/map
+[0.878s] Invoked command in '/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg' returned '0': PYTHONPATH=/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/llagoeiro/Desktop/FEI/8_semestre/RoboticaProbFolder/proj3/TurtleBot3/build/navigation_pkg/build --no-deps symlink_data

@@ -1,0 +1,4 @@
+[console_scripts]
+checkpoints = navigation_pkg.checkpoints:main
+force_localization = navigation_pkg.forceLocalization:main
+save_checkpoints = navigation_pkg.saveCheckpoints:main
