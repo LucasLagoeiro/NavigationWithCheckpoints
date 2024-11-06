@@ -40,7 +40,8 @@ setup(
         'console_scripts': [
             'checkpoints = navigation_pkg.checkpoints:main',
             'save_checkpoints = navigation_pkg.saveCheckpoints:main',
-            'force_localization = navigation_pkg.forceLocalization:main'
+            'force_localization = navigation_pkg.forceLocalization:main',
+            'checkpointsServices = navigation_pkg.saveCheckpointsService:main'
         ],
     },
 )

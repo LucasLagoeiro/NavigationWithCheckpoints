@@ -9,7 +9,7 @@ def generate_launch_description():
         executable='checkpoints',
         name='checkpoints',
         parameters=[{
-            'checkpoints_file': get_package_share_directory('navigation_pkg')+'/map/checkpoints.json'
+            'checkpoints_file': get_package_share_directory('navigation_pkg')+'/map/real_world_checkpoints.json'
         }],
     )
 
